@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daisy Mae Lascuña | CS Portfolio</title>
+  <meta name="description" content="Portfolio of Daisy Mae Lascuña — 3rd Year BS Computer Science Student, Aspiring Software Engineer & UI/UX Enthusiast." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>DML<span class="logo-bracket">&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"         class="nav-link active">Home</a></li>
+        <li><a href="#about"        class="nav-link">About</a></li>
+        <li><a href="#projects"     class="nav-link">Projects</a></li>
+        <li><a href="#leadership"   class="nav-link">Leadership</a></li>
+        <li><a href="#skills"       class="nav-link">Skills</a></li>
+        <li><a href="#affiliations" class="nav-link">More</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#contact"      class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#home"         class="mobile-link">Home</a></li>
+        <li><a href="#about"        class="mobile-link">About</a></li>
+        <li><a href="#projects"     class="mobile-link">Projects</a></li>
+        <li><a href="#leadership"   class="mobile-link">Leadership</a></li>
+        <li><a href="#skills"       class="mobile-link">Skills</a></li>
+        <li><a href="#affiliations" class="mobile-link">More</a></li>
+        <li><a href="#certificates" class="mobile-link">Certificates</a></li>
+        <li><a href="#contact"      class="mobile-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO / HOME ========== -->
+  <section class="hero" id="home">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="blob blob-1" aria-hidden="true"></div>
+    <div class="blob blob-2" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <p class="hero-greeting reveal">Hello, World! 👋</p>
+      <h1 class="hero-name reveal delay-1">
+        I'm <span class="accent">Daisy Mae</span>
+      </h1>
+      <h2 class="hero-tagline reveal delay-2">
+        Aspiring Software Engineer &amp; <br />
+        <span class="typewriter" id="typewriter"></span>
+      </h2>
+      <p class="hero-sub reveal delay-3">
+        3rd-Year BS Computer Science student at Cor Jesu College — passionate about building
+        meaningful digital experiences through clean code and thoughtful design.
+      </p>
+      <div class="hero-cta reveal delay-4">
+        <a href="#projects" class="btn btn-primary">
+          <i class="ph ph-folder-open"></i> View Projects
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="ph ph-paper-plane-tilt"></i> Contact Me
+        </a>
+      </div>
+      <div class="status-badge reveal delay-5">
+        <span class="status-dot"></span>
+        Available for internships &amp; collaborations
+      </div>
+    </div>
+
+    <div class="scroll-indicator" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Get to know me</p>
+        <h2 class="section-title">About <span class="accent">Me</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <!-- Profile image column -->
+        <div class="about-image-col reveal">
+          <div class="profile-frame">
+            <!--
+              ✏️  TO REPLACE WITH YOUR PHOTO:
+              1. Save your photo as "daisy-profile.jpg" in the same folder
+              2. Delete the <div class="profile-placeholder"> block below
+              3. Uncomment the <img> tag:
+              <img src="daisy-profile.jpg" alt="Daisy Mae Lascuña" style="width:100%;height:100%;object-fit:cover;border-radius:18px;" />
+            -->
+            <div class="profile-placeholder">
+              <i class="ph ph-user"></i>
+              <p>daisy-profile.jpg</p>
+            </div>
+            <div class="corner corner-tl"></div>
+            <div class="corner corner-br"></div>
+          </div>
+
+          <div class="stats-row">
+            <div class="stat-chip">
+              <span class="stat-num">3rd</span>
+              <span class="stat-lbl">Year</span>
+            </div>
+            <div class="stat-chip">
+              <span class="stat-num">BSCS</span>
+              <span class="stat-lbl">Degree</span>
+            </div>
+            <div class="stat-chip">
+              <span class="stat-num">5+</span>
+              <span class="stat-lbl">Projects</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- About text column -->
+        <div class="about-text-col reveal delay-2">
+          <h3 class="about-heading">Turning ideas into elegant solutions</h3>
+
+          <p class="about-para">
+            Hi! I'm Daisy Mae, a 3rd-year BS Computer Science student and an aspiring Software Engineer
+            and Web Developer with a strong passion for UI/UX design. I enjoy creating clean, interactive,
+            and user-friendly digital experiences that combine creativity and functionality.
+          </p>
+          <p class="about-para">
+            I also have experience working as a Quality Assurance (QA) member in academic projects,
+            helping ensure the quality, usability, and performance of different systems. I continuously
+            challenge myself to learn new technologies and sharpen my technical, analytical, and
+            problem-solving skills.
+          </p>
+
+          <!-- Education stack -->
+          <div class="edu-cards-stack">
+            <div class="edu-card">
+              <div class="edu-icon"><i class="ph ph-graduation-cap"></i></div>
+              <div class="edu-info">
+                <p class="edu-degree">BS Computer Science — 3rd Year</p>
+                <p class="edu-school">Cor Jesu College &nbsp;·&nbsp; Annual Awardee (1st Year)</p>
+              </div>
+            </div>
+            <div class="edu-card">
+              <div class="edu-icon"><i class="ph ph-book-open"></i></div>
+              <div class="edu-info">
+                <p class="edu-degree">Senior High — STEM (Computer Studies)</p>
+                <p class="edu-school">Cor Jesu College &nbsp;·&nbsp; With High Distinction</p>
+              </div>
+            </div>
+            <div class="edu-card">
+              <div class="edu-icon"><i class="ph ph-pencil-line"></i></div>
+              <div class="edu-info">
+                <p class="edu-degree">Junior High School</p>
+                <p class="edu-school">Digos City National High School &nbsp;·&nbsp; With Distinction</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interest tags -->
+          <div class="interest-tags">
+            <span class="tag">Web Development</span>
+            <span class="tag">UI/UX Design</span>
+            <span class="tag">Software Engineering</span>
+            <span class="tag">Quality Assurance</span>
+            <span class="tag">Augmented Reality</span>
+            <span class="tag">Problem Solving</span>
+          </div>
+
+          <!-- Career goal -->
+          <div class="goal-block">
+            <i class="ph ph-rocket-launch goal-icon"></i>
+            <p>
+              <strong>Career Goal:</strong> To continuously grow as a Software Engineer, contribute
+              to meaningful projects, and eventually build my own technology-driven business that
+              creates innovative solutions for people.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURED PROJECTS ========== -->
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">What I've built</p>
+        <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 — SCMS -->
+        <div class="project-card reveal">
+          <div class="project-card-header">
+            <div class="project-icon-wrap"><i class="ph ph-shield-check"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/JorgioMer/Student-Conduct-Management-System-SCMS-.git"
+                 target="_blank" rel="noopener" class="icon-link" aria-label="GitHub">
+                <i class="ph ph-github-logo"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Student Conduct Management System</h3>
+          <p class="project-desc">
+            A computer-based system for CJC's Office of the Prefect of Discipline that digitizes
+            student disciplinary records — Pink, Green &amp; Blue slips — in a centralized database,
+            replacing slow paper-based processes.
+          </p>
+          <div class="project-roles">
+            <span class="role-tag">Front-End Dev</span>
+            <span class="role-tag">UI/UX Designer</span>
+            <span class="role-tag">QA</span>
+          </div>
+          <div class="tech-tags">
+            <span>Python</span><span>MS Access</span>
+          </div>
+        </div>
+
+        <!-- Project 2 — Sinsilyo -->
+        <div class="project-card reveal delay-1">
+          <div class="project-card-header">
+            <div class="project-icon-wrap"><i class="ph ph-coins"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/josh-amir/Coin-Identifier-Application.git"
+                 target="_blank" rel="noopener" class="icon-link" aria-label="GitHub">
+                <i class="ph ph-github-logo"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Sinsilyo: Peso Coin Identifier App</h3>
+          <p class="project-desc">
+            A mobile app that identifies Philippine NGC coins (₱1, ₱5, ₱10, ₱20) via the device
+            camera. Designed to assist visually impaired users, elderly, tourists, and students
+            with a simple and accessible interface.
+          </p>
+          <div class="project-roles">
+            <span class="role-tag">Front-End Dev</span>
+            <span class="role-tag">UI/UX Designer</span>
+            <span class="role-tag">QA</span>
+          </div>
+          <div class="tech-tags">
+            <span>Python</span><span>MS Access</span>
+          </div>
+        </div>
+
+        <!-- Project 3 — Steganography -->
+        <div class="project-card reveal delay-2">
+          <div class="project-card-header">
+            <div class="project-icon-wrap"><i class="ph ph-lock-key"></i></div>
+            <div class="project-links">
+              <a href="https://hidden-secrets.vercel.app/" target="_blank" rel="noopener"
+                 class="icon-link" aria-label="Live Demo">
+                <i class="ph ph-arrow-square-out"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Steganography &amp; Digital Watermarking</h3>
+          <p class="project-desc">
+            A web app that hides secret text inside images without noticeably altering quality.
+            Supports extraction of hidden messages — protecting sensitive information and
+            maintaining digital authenticity. Live on Vercel.
+          </p>
+          <div class="project-roles">
+            <span class="role-tag">UI/UX Designer</span>
+            <span class="role-tag">Front-End Dev</span>
+          </div>
+          <div class="tech-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Project 4 — Teks Apiran -->
+        <div class="project-card reveal delay-1">
+          <div class="project-card-header">
+            <div class="project-icon-wrap"><i class="ph ph-game-controller"></i></div>
+            <div class="project-links">
+              <a href="https://larongpinoy-teks-apiran-game.vercel.app/" target="_blank" rel="noopener"
+                 class="icon-link" aria-label="Live Demo">
+                <i class="ph ph-arrow-square-out"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Teks Apiran — Digital Filipino Game</h3>
+          <p class="project-desc">
+            A digital version of the classic Filipino street card game "Teks," built as an HCI
+            final project. Transforms a beloved childhood pastime into a fun, interactive
+            browser-based experience. Live on Vercel.
+          </p>
+          <div class="project-roles">
+            <span class="role-tag">Front-End Dev</span>
+            <span class="role-tag">UI/UX Designer</span>
+            <span class="role-tag">QA Tester</span>
+          </div>
+          <div class="tech-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Project 5 — AI To-Do List -->
+        <div class="project-card reveal delay-2">
+          <div class="project-card-header">
+            <div class="project-icon-wrap"><i class="ph ph-check-square"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/JorgioMer/ToDoListTask.git" target="_blank" rel="noopener"
+                 class="icon-link" aria-label="GitHub">
+                <i class="ph ph-github-logo"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">AI-Powered To-Do List App</h3>
+          <p class="project-desc">
+            A smart task manager with an AI scheduler that auto-organizes tasks by priority
+            and schedule. Features a reminder system flagging urgent vs. low-priority tasks,
+            helping users manage their time more effectively.
+          </p>
+          <div class="project-roles">
+            <span class="role-tag">Front-End Dev</span>
+          </div>
+          <div class="tech-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <!-- More projects card -->
+        <div class="project-card project-card--more reveal delay-3">
+          <div class="project-card-header">
+            <div class="project-icon-wrap"><i class="ph ph-plus-circle"></i></div>
+          </div>
+          <h3 class="project-title">More Coming Soon</h3>
+          <p class="project-desc">
+            Always working on something new — exploring AR with Unity, deeper UI/UX work,
+            and expanding full-stack skills. Check GitHub for the latest!
+          </p>
+          <a href="https://github.com/daiszemi16" target="_blank" rel="noopener"
+             class="btn btn-outline btn-sm">
+            <i class="ph ph-github-logo"></i> View GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LEADERSHIP & ORGANIZATIONS ========== -->
+  <section class="section leadership-section" id="leadership">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Leadership &amp; <span class="accent">Organizations</span></h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="ph ph-currency-circle-dollar"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-year">2021 – 2022</span>
+              <span class="timeline-badge secondary">Senior High</span>
+            </div>
+            <h3 class="timeline-title">Treasurer — Computer Studies Students</h3>
+            <p class="timeline-org"><i class="ph ph-buildings"></i> Cor Jesu College</p>
+            <p class="timeline-desc">
+              Managed organizational funds, recorded financial transactions, and ensured transparent
+              budgeting for the Computer Studies student organization.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-1">
+          <div class="timeline-dot"><i class="ph ph-first-aid-kit"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-year">2021 – 2022</span>
+              <span class="timeline-badge secondary">Community</span>
+            </div>
+            <h3 class="timeline-title">Member — Red Cross Youth of the Philippines</h3>
+            <p class="timeline-org"><i class="ph ph-buildings"></i> Cor Jesu College Chapter</p>
+            <p class="timeline-desc">
+              Attended seminars and workshops as an RCYP member and participated in awareness activities and community service programs.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-2">
+          <div class="timeline-dot"><i class="ph ph-monitor-play"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-year">2023 – 2024</span>
+              <span class="timeline-badge">Active</span>
+            </div>
+            <h3 class="timeline-title">Floor Director — Association of Computer Studies Students</h3>
+            <p class="timeline-org"><i class="ph ph-buildings"></i> Cor Jesu College</p>
+            <p class="timeline-desc">
+              Directed events and programs, coordinating logistics and stage management for
+              the organization's academic and social activities.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-1">
+          <div class="timeline-dot"><i class="ph ph-users"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-year">2023 – 2024</span>
+              <span class="timeline-badge secondary">Peer</span>
+            </div>
+            <h3 class="timeline-title">Member — Peer Club</h3>
+            <p class="timeline-org"><i class="ph ph-buildings"></i> Cor Jesu College</p>
+            <p class="timeline-desc">
+              Engaged in peer support and mentoring initiatives, fostering a collaborative
+              and supportive academic environment among students.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-2">
+          <div class="timeline-dot"><i class="ph ph-star"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-year">2024 – 2025</span>
+              <span class="timeline-badge accent-badge">Officer</span>
+            </div>
+            <h3 class="timeline-title">Sociocultural Secretary — CCIS CLGU</h3>
+            <p class="timeline-org"><i class="ph ph-buildings"></i> Cor Jesu College</p>
+            <p class="timeline-desc">
+              Planned and organized cultural programs, managed documentation for sociocultural
+              events, and strengthened the community identity of the CCIS organization.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-1">
+          <div class="timeline-dot"><i class="ph ph-monitor-play"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-year">2024 – Present</span>
+              <span class="timeline-badge">Active</span>
+            </div>
+            <h3 class="timeline-title">Member — Chess Club</h3>
+            <p class="timeline-org"><i class="ph ph-buildings"></i> Cor Jesu College</p>
+            <p class="timeline-desc">
+              Participated as a club member by attending and supporting club activities and contributing to a positive and engaging community environment during events.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-2">
+          <div class="timeline-dot"><i class="ph ph-star-four"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-year">2025 – 2026</span>
+              <span class="timeline-badge accent-badge">Officer</span>
+            </div>
+            <h3 class="timeline-title">Sociocultural Undersecretary — CCIS CLGU</h3>
+            <p class="timeline-org"><i class="ph ph-buildings"></i> Cor Jesu College</p>
+            <p class="timeline-desc">
+              Supports cultural event planning, manages program content, and promotes
+              student engagement in CCIS sociocultural activities for AY 2025–2026.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROGRAMMING & SKILLS ========== -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">My technical toolkit</p>
+        <h2 class="section-title">Programming &amp; <span class="accent">Skills</span></h2>
+      </div>
+
+      <div class="skills-layout">
+        <!-- Skill bars -->
+        <div class="skill-bars-col reveal">
+          <h3 class="skills-sub-heading">Language Proficiency</h3>
+
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>HTML &amp; CSS</span><span class="skill-pct">50%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="50"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>JavaScript</span><span class="skill-pct">50%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="50"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>Python</span><span class="skill-pct">30%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="30"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>Java</span><span class="skill-pct">40%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="40"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>C++</span><span class="skill-pct">55%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="55"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>Git &amp; GitHub</span><span class="skill-pct">45%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" data-width="45"></div></div>
+          </div>
+        </div>
+
+        <!-- Skill area cards -->
+        <div class="skill-cards-col reveal delay-2">
+          <h3 class="skills-sub-heading">Technical Focus Areas</h3>
+          <div class="skill-area-grid">
+            <div class="skill-area-card">
+              <div class="skill-area-icon"><i class="ph ph-globe"></i></div>
+              <h4>Front-End Dev</h4>
+              <p>Responsive, accessible, and interactive web apps.</p>
+            </div>
+            <div class="skill-area-card">
+              <div class="skill-area-icon"><i class="ph ph-pencil-ruler"></i></div>
+              <h4>UI/UX Design</h4>
+              <p>User-centered design and design principles.</p>
+            </div>
+            <div class="skill-area-card">
+              <div class="skill-area-icon"><i class="ph ph-clipboard-text"></i></div>
+              <h4>Quality Assurance</h4>
+              <p>Testing for quality, usability, and performance.</p>
+            </div>
+            <div class="skill-area-card">
+              <div class="skill-area-icon"><i class="ph ph-code"></i></div>
+              <h4>Programming</h4>
+              <p>OOP fundamentals, algorithms &amp; data structures.</p>
+            </div>
+            <div class="skill-area-card">
+              <div class="skill-area-icon"><i class="ph ph-paint-brush"></i></div>
+              <h4>Graphic Design</h4>
+              <p>Visual content, photo &amp; basic video editing.</p>
+            </div>
+            <div class="skill-area-card">
+              <div class="skill-area-icon"><i class="ph ph-cube"></i></div>
+              <h4>Augmented Reality</h4>
+              <p>Exploring AR development with Unity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Personal strengths -->
+      <div class="strengths-row reveal">
+        <h3 class="skills-sub-heading tools-heading">Personal Strengths</h3>
+        <div class="tools-chips">
+          <span class="tool-chip"><i class="ph ph-brain"></i> Problem Solving</span>
+          <span class="tool-chip"><i class="ph ph-lightbulb"></i> Creativity</span>
+          <span class="tool-chip"><i class="ph ph-crown"></i> Leadership</span>
+          <span class="tool-chip"><i class="ph ph-users-three"></i> Teamwork</span>
+          <span class="tool-chip"><i class="ph ph-arrows-clockwise"></i> Adaptability</span>
+          <span class="tool-chip"><i class="ph ph-chat-circle-text"></i> Basic Communication</span>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="tools-row reveal">
+        <h3 class="skills-sub-heading tools-heading">Tools &amp; Technologies</h3>
+        <div class="tools-chips">
+          <span class="tool-chip"><i class="ph ph-file-html"></i> HTML5</span>
+          <span class="tool-chip"><i class="ph ph-paint-brush"></i> CSS3</span>
+          <span class="tool-chip"><i class="ph ph-lightning"></i> JavaScript</span>
+          <span class="tool-chip"><i class="ph ph-coffee"></i> Java</span>
+          <span class="tool-chip"><i class="ph ph-snake"></i> Python</span>
+          <span class="tool-chip"><i class="ph ph-brackets-curly"></i> C++</span>
+          <span class="tool-chip"><i class="ph ph-git-branch"></i> Git</span>
+          <span class="tool-chip"><i class="ph ph-github-logo"></i> GitHub</span>
+          <span class="tool-chip"><i class="ph ph-figma-logo"></i> Basic Figma</span>
+          <span class="tool-chip"><i class="ph ph-terminal-window"></i> VS Code</span>
+          <span class="tool-chip"><i class="ph ph-cube"></i> Unity</span>
+          <span class="tool-chip"><i class="ph ph-table"></i> MS Access</span>
+          <span class="tool-chip"><i class="ph ph-code-block"></i> NetBeans</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ACHIEVEMENTS & AFFILIATIONS ========== -->
+  <section class="section affiliations-section" id="affiliations">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Beyond the classroom</p>
+        <h2 class="section-title">Achievements &amp; <span class="accent">Affiliations</span></h2>
+      </div>
+
+      <div class="affil-grid">
+
+        <div class="affil-card reveal">
+          <div class="affil-card-icon cert"><i class="ph ph-medal"></i></div>
+          <div class="affil-card-type">Academic Award</div>
+          <h3 class="affil-card-title">Annual Awardee — 1st Year College</h3>
+          <p class="affil-card-body">
+            Recognized as an Annual Awardee during 1st Year at Cor Jesu College for
+            outstanding academic performance in the BS Computer Science program.
+          </p>
+        </div>
+
+        <div class="affil-card reveal delay-1">
+          <div class="affil-card-icon cert"><i class="ph ph-star"></i></div>
+          <div class="affil-card-type">Academic Award</div>
+          <h3 class="affil-card-title">With High Distinction — Senior High</h3>
+          <p class="affil-card-body">
+            Graduated Senior High School with High Distinction at Cor Jesu College,
+            STEM strand with specialization in Computer Studies.
+          </p>
+        </div>
+
+        <div class="affil-card reveal delay-2">
+          <div class="affil-card-icon cert"><i class="ph ph-seal-check"></i></div>
+          <div class="affil-card-type">Academic Award</div>
+          <h3 class="affil-card-title">With Distinction — Junior High School</h3>
+          <p class="affil-card-body">
+            Completed Junior High at Digos City National High School With Distinction,
+            demonstrating consistent academic excellence throughout secondary education.
+          </p>
+        </div>
+
+        <div class="affil-card reveal delay-1">
+          <div class="affil-card-icon collab"><i class="ph ph-lock-key"></i></div>
+          <div class="affil-card-type">Live Deployment</div>
+          <h3 class="affil-card-title">Steganography Web App — Vercel</h3>
+          <p class="affil-card-body">
+            Successfully deployed a web-based steganography and digital watermarking system
+            live on Vercel, making secure image-based message hiding publicly accessible.
+          </p>
+          <a href="https://hidden-secrets.vercel.app/" target="_blank" rel="noopener" class="affil-link">
+            Visit Live Site <i class="ph ph-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="affil-card reveal delay-2">
+          <div class="affil-card-icon collab"><i class="ph ph-game-controller"></i></div>
+          <div class="affil-card-type">Live Deployment</div>
+          <h3 class="affil-card-title">Teks Apiran Game — Vercel</h3>
+          <p class="affil-card-body">
+            Digitized a beloved Filipino street game and deployed it live on Vercel as
+            an HCI capstone — blending cultural heritage with modern web technology.
+          </p>
+          <a href="https://larongpinoy-teks-apiran-game.vercel.app/" target="_blank" rel="noopener" class="affil-link">
+            Play the Game <i class="ph ph-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="affil-card reveal delay-3">
+          <div class="affil-card-icon community"><i class="ph ph-github-logo"></i></div>
+          <div class="affil-card-type">Open Source</div>
+          <h3 class="affil-card-title">Active GitHub Developer</h3>
+          <p class="affil-card-body">
+            Maintains an active GitHub profile with collaborative academic projects and
+            personal experiments in web development, game design, and system development.
+          </p>
+          <a href="https://github.com/daiszemi16" target="_blank" rel="noopener" class="affil-link">
+            View Profile <i class="ph ph-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CERTIFICATES GALLERY ========== -->
+  <section class="section certificates-section" id="certificates">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Proof of learning</p>
+        <h2 class="section-title">Certificates &amp; <span class="accent">Awards</span></h2>
+      </div>
+
+
+      <!-- Certificate grid -->
+      <div class="cert-grid" id="certGrid">
+
+   <!-- =====================================================
+             ✏️ HOW TO ADD YOUR CERTIFICATES:
+             1. Save your image in: assets/certificates/
+             2. Duplicate a cert-card block below
+             3. Fill in: src, alt, title, and description
+             ===================================================== -->
+
+        <!-- CERTIFICATE 1 -->
+        <div class="cert-card reveal delay-2">
+          <div class="cert-img-wrap">
+            <img src="assets/certificates/SOCIO.png" alt="Certificate of Appreciation" />
+            <div class="cert-overlay">
+              <button class="cert-view-btn" aria-label="View certificate">
+                <i class="ph ph-magnifying-glass-plus"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title"> Socio-Cultural Secretary, CCIS Local Government Unit</h3>
+            <p class="cert-desc">resented in recognition of outstanding service and dedication as the Socio-Cultural Secretary of the 
+              College of Computing and Information Sciences Local Government Unit for the school year 2024–2025.
+              </p>
+          </div>
+        </div>
+        
+        <!-- CERTIFICATE 2 -->
+        <div class="cert-card reveal">
+          <div class="cert-img-wrap">
+            <img src="assets/certificates/wadhwani.png" alt="Certificate of Content Completion" />
+            <div class="cert-overlay">
+              <button class="cert-view-btn" aria-label="View certificate">
+                <i class="ph ph-magnifying-glass-plus"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">Ignite Philippines Entrepreneurship Program Completer</h3>
+            <p class="cert-desc">Awarded by Cor Jesu College, Incorporated for successfully completing the Ignite Philippines program on April 13, 2026, having fulfilled 
+              all coursework and assessments covering key entrepreneurial skills in ideation, business modeling, and financial planning.</p>
+          </div>
+        </div>
+
+         <!-- CERTIFICATE 3 -->
+        <div class="cert-card reveal">
+          <div class="cert-img-wrap">
+            <img src="assets/certificates/basePH1.png" alt="Certificate of Participation" />
+            <div class="cert-overlay">
+              <button class="cert-view-btn" aria-label="View certificate">
+                <i class="ph ph-magnifying-glass-plus"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">Base Community Townhall IRL</h3>
+            <p class="cert-desc">Certificate of participation from the basePH community townhall event, 2025.</p>
+          </div>
+        </div>
+
+        <!-- CERTIFICATE 4 -->
+        <div class="cert-card reveal delay-1">
+          <div class="cert-img-wrap">
+            <img src="assets/certificates/basePH2.png" alt="OpenXAi Workshop Certificate" />
+            <div class="cert-overlay">
+              <button class="cert-view-btn" aria-label="View certificate">
+                <i class="ph ph-magnifying-glass-plus"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">OpenXAi Mini Workshop and Competition</h3>
+            <p class="cert-desc">Certificate of participation from the OpenXAi mini workshop and competition by basePH, 2025.</p>
+          </div>
+        </div>
+
+        <!-- CERTIFICATE 5 -->
+        <div class="cert-card reveal delay-2">
+          <div class="cert-img-wrap">
+            <img src="assets/certificates/ITWEEK1.png" alt="Certificate of Participation" />
+            <div class="cert-overlay">
+              <button class="cert-view-btn" aria-label="View certificate">
+                <i class="ph ph-magnifying-glass-plus"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title"> AR Seminar-Workshop Participant</h3>
+            <p class="cert-desc">Awarded for participating in the Augmented Reality (AR) Seminar-Workshop 
+                    organized by ACSS of CCIS, held on November 29, 2022 at CLB4, Cor Jesu College, Inc.
+              </p>
+          </div>
+        </div>
+
+        <!-- CERTIFICATE 6 -->
+        <div class="cert-card reveal delay-2">
+          <div class="cert-img-wrap">
+            <img src="assets/certificates/GirlsScout.png" alt="Certificate of Participation" />
+            <div class="cert-overlay">
+              <button class="cert-view-btn" aria-label="View certificate">
+                <i class="ph ph-magnifying-glass-plus"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">GSP Provincial Encampment Participant</h3>
+            <p class="cert-desc">Awarded for participating in the 39th Girl Scouts of the Philippines Provincial Encampment held 
+              at Matanao Central Elementary School, Matanao, Davao del Sur, from November 30 to December 4, 2016.
+              </p>
+          </div>
+        </div>
+
+        <!-- CERTIFICATE 7 -->
+        <div class="cert-card reveal delay-2">
+          <div class="cert-img-wrap">
+            <img src="assets/certificates/ITWEEK2.png" alt="Certificate of Participation" />
+            <div class="cert-overlay">
+              <button class="cert-view-btn" aria-label="View certificate">
+                <i class="ph ph-magnifying-glass-plus"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">Photo Walk Participant, Innovation Week 2023</h3>
+            <p class="cert-desc">Awarded for participating in the Photo Walk activity organized by the Association of Computer Studies Students (ACSS) 
+              of CCIS in celebration of Innovation Week, held on February 14, 2023 at Cor Jesu College, Digos City.
+              </p>
+          </div>
+        </div>
+
+        <!-- CERTIFICATE 8 -->
+        <div class="cert-card reveal delay-2">
+          <div class="cert-img-wrap">
+            <img src="assets/certificates/RCY1.png" alt="Certificate of Participation" />
+            <div class="cert-overlay">
+              <button class="cert-view-btn" aria-label="View certificate">
+                <i class="ph ph-magnifying-glass-plus"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">16th Red Cross Youth Camp Participant</h3>
+            <p class="cert-desc">Awarded for actively participating in the 16th Red Cross Youth Camp themed "Molding Young Leaders in the Spirit of Volunteerism," 
+              held on January 27–29, 2017 at Malalag Central Elementary School, Malalag, Davao del Sur.
+              </p>
+          </div>
+        </div>
+
+        <!-- CERTIFICATE 9 -->
+        <div class="cert-card reveal delay-2">
+          <div class="cert-img-wrap">
+            <img src="assets/certificates/RCY2.png" alt="Certificate of Participation" />
+            <div class="cert-overlay">
+              <button class="cert-view-btn" aria-label="View certificate">
+                <i class="ph ph-magnifying-glass-plus"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">Red Cross Youth Emergency Care Training</h3>
+            <p class="cert-desc">Awarded for actively participating in the Red Cross Youth 
+              Emergency Care Training held at Cor Jesu College on January 28, 2023.
+              </p>
+          </div>
+        </div>
+
+        <!-- CERTIFICATE 10 -->
+        <div class="cert-card reveal delay-2">
+          <div class="cert-img-wrap">
+            <img src="assets/certificates/LTS.jpg" alt="Certificate of Participation" />
+            <div class="cert-overlay">
+              <button class="cert-view-btn" aria-label="View certificate">
+                <i class="ph ph-magnifying-glass-plus"></i> View
+              </button>
+            </div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">Leadership Training Seminar Participant</h3>
+            <p class="cert-desc">Awarded for outstanding participation during the Leadership 
+              Training Seminar held on November 13, 2022 at Cor Jesu College, Inc., Sacred Heart Avenue, Digos City.
+              </p>
+          </div>
+        </div>
+
+        <!-- ✏️ ADD MORE CERTIFICATES BELOW — just copy one cert-card block above and paste it here -->
+
+      </div><!-- end cert-grid -->
+
+     
+
+    </div><!-- end container -->
+
+    <!-- ===== LIGHTBOX MODAL ===== -->
+    <div class="lightbox-overlay" id="lightboxOverlay" role="dialog" aria-modal="true" aria-label="Certificate viewer">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close">
+        <i class="ph ph-x"></i>
+      </button>
+      <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous">
+        <i class="ph ph-caret-left"></i>
+      </button>
+      <div class="lightbox-content">
+        <img src="" alt="" id="lightboxImg" />
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+      </div>
+      <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next">
+        <i class="ph ph-caret-right"></i>
+      </button>
+    </div>
+
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Let's connect</p>
+        <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+      </div>
+
+      <div class="contact-layout">
+        <!-- Left: info -->
+        <div class="contact-info reveal">
+          <p class="contact-intro">
+            I'm open to internship opportunities, project collaborations, and meaningful
+            conversations about technology. Feel free to reach out — I'd love to connect!
+          </p>
+
+          <div class="contact-details">
+            <a href="mailto:daisylascuna@g.cjc.edu.ph" class="contact-item">
+              <div class="contact-item-icon"><i class="ph ph-envelope"></i></div>
+              <div>
+                <p class="contact-item-label">Email</p>
+                <p class="contact-item-value">daisylascuna@g.cjc.edu.ph</p>
+              </div>
+            </a>
+            <a href="https://github.com/daiszemi16" target="_blank" rel="noopener" class="contact-item">
+              <div class="contact-item-icon"><i class="ph ph-github-logo"></i></div>
+              <div>
+                <p class="contact-item-label">GitHub</p>
+                <p class="contact-item-value">github.com/daiszemi16</p>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/daisy-mae-lascu%C3%B1a" target="_blank" rel="noopener" class="contact-item">
+              <div class="contact-item-icon"><i class="ph ph-linkedin-logo"></i></div>
+              <div>
+                <p class="contact-item-label">LinkedIn</p>
+                <p class="contact-item-value">Daisy Mae Lascuña</p>
+              </div>
+            </a>
+            <a href="https://www.facebook.com/daisy.crujedo" target="_blank" rel="noopener" class="contact-item">
+              <div class="contact-item-icon"><i class="ph ph-facebook-logo"></i></div>
+              <div>
+                <p class="contact-item-label">Facebook</p>
+                <p class="contact-item-value">Daisy Mae Lascuña</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="social-row">
+            <a href="https://github.com/daiszemi16" target="_blank" rel="noopener"
+               class="social-btn" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+            <a href="https://www.linkedin.com/in/daisy-mae-lascu%C3%B1a" target="_blank" rel="noopener"
+               class="social-btn" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+            <a href="mailto:daisylascuna@g.cjc.edu.ph"
+               class="social-btn" aria-label="Email"><i class="ph ph-envelope"></i></a>
+            <a href="https://www.facebook.com/daisy.crujedo" target="_blank" rel="noopener"
+               class="social-btn" aria-label="Facebook"><i class="ph ph-facebook-logo"></i></a>
+          </div>
+        </div>
+
+        <!-- Right: form -->
+        <div class="contact-form-wrap reveal delay-2">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="fname" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              <i class="ph ph-paper-plane-tilt"></i>
+              <span>Send Message</span>
+            </button>
+            <p class="form-success" id="formSuccess">
+              <i class="ph ph-check-circle"></i> Message sent! I'll get back to you soon.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="nav-logo">
+          <span class="logo-bracket">&lt;</span>DaisyMae<span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-tagline">
+          Building thoughtful software, one line at a time.<br />
+          BS Computer Science · Cor Jesu College
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#skills">Skills</a>
+        <a href="#affiliations">Achievements</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://github.com/daiszemi16" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="ph ph-github-logo"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/daisy-mae-lascu%C3%B1a" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="ph ph-linkedin-logo"></i>
+        </a>
+        <a href="mailto:daisylascuna@g.cjc.edu.ph" aria-label="Email">
+          <i class="ph ph-envelope"></i>
+        </a>
+        <a href="https://www.facebook.com/daisy.crujedo" target="_blank" rel="noopener" aria-label="Facebook">
+          <i class="ph ph-facebook-logo"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Daisy Mae Crujedo Lascuña · All rights reserved</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="ph ph-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
